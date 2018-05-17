@@ -7,4 +7,6 @@
     <string name="standart_game">Gra standardowa</string>
     <string name="bidding_game">gra z lictacją</string>
     <string name="next_move">Następny ruch</string>
+    <string name="state">Stan rozgrywki</string>
+    <string name="reset_game">Reset gry</string>
 </resources>

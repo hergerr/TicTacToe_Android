@@ -11,6 +11,9 @@ import static com.frankiewiczsoftware.tymek.tictactoe.PlayerNamesActivity.P2;
 public class ChooseModeActivity extends Activity {
 
     String player1, player2;
+    static String R1 = "3";
+    static String R2 = "4";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,15 +27,15 @@ public class ChooseModeActivity extends Activity {
 
     public void onStandartGameClick(View view) {
         Intent intent = new Intent(this, StandartGameActivity.class);
-        intent.putExtra(P1,StandartGameActivity.class);
-        intent.putExtra(P2,StandartGameActivity.class);
+        intent.putExtra(R1,player1);
+        intent.putExtra(R2,player2);
         startActivity(intent);
     }
 
     public void onBiddingGameClick(View view) {
         Intent intent = new Intent(this, BiddingGameActivity.class);
-        intent.putExtra(P1,StandartGameActivity.class);
-        intent.putExtra(P2,StandartGameActivity.class);
+        intent.putExtra(R1,player1);
+        intent.putExtra(R2,player2);
         startActivity(intent);
     }
 }

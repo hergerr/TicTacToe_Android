@@ -27,13 +27,9 @@ public class PlayerNamesActivity extends Activity {
         player1_text = player1.getText().toString();
         player2_text = player2.getText().toString();
 
-        if(player1_text == "" || player2_text == ""){
-            Toast.makeText(this, "Niepoprawne dane", Toast.LENGTH_LONG).show();
-        } else {
-            Intent intent = new Intent(this, ChooseModeActivity.class);
-            intent.putExtra(P1, player1_text);
-            intent.putExtra(P2, player2_text);
-            startActivity(intent);
-        }
+        Intent intent = new Intent(this, ChooseModeActivity.class);
+        intent.putExtra(P1, player1_text);
+        intent.putExtra(P2, player2_text);
+        startActivity(intent);
     }
 }
