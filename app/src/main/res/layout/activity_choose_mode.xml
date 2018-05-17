@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseModeActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button_standart_game"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginLeft="@dimen/super_big_padding"
+        android:layout_marginRight="@dimen/super_big_padding"
+        android:layout_marginTop="@dimen/super_big_padding"
+        android:text="@string/standart_game"
+        android:onClick="onStandartGameClick"
+        />
+
+    <Button
+        android:id="@+id/button_bidding_game"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/super_big_padding"
+        android:layout_marginRight="@dimen/super_big_padding"
+        android:layout_marginTop="@dimen/super_big_padding"
+        android:layout_height="@dimen/button_height"
+        android:text="@string/bidding_game"
+        android:onClick="onBiddingGameClick"
+        />
+
+</LinearLayout>

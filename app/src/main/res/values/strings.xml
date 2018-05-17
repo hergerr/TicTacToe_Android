@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="choose_player">Wprowadź nazwy graczy</string>
+    <string name="player1_text">Wprowadz nazwe gracza 1</string>
+    <string name="player2_text">Wprowadz nazwe gracza 2</string>
+    <string name="next">Dalej</string>
+    <string name="standart_game">Gra standardowa</string>
+    <string name="bidding_game">gra z lictacją</string>
+    <string name="next_move">Następny ruch</string>
+</resources>

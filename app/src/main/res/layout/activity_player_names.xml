@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayerNamesActivity"
+    android:orientation="vertical"
+>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/big_size"
+        android:paddingTop="@dimen/standart_padding"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="@string/choose_player"/>
+
+
+    <EditText
+        android:id="@+id/player1_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/big_padding"
+        android:paddingRight="@dimen/big_padding"
+        android:paddingLeft="@dimen/big_padding"
+        android:hint="@string/player1_text"/>
+
+    <EditText
+        android:id="@+id/player2_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/big_padding"
+        android:paddingRight="@dimen/big_padding"
+        android:paddingLeft="@dimen/big_padding"
+        android:hint="@string/player2_text"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/big_size"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/next"
+        android:onClick="onButtonNextClick"/>
+
+
+</LinearLayout>

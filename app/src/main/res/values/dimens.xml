@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="big_size">20dp</dimen>
+    <dimen name="standart_size">16dp</dimen>
+    <dimen name="standart_padding">16dp</dimen>
+    <dimen name="big_padding">20dp</dimen>
+    <dimen name="super_big_padding">40dp</dimen>
+    <dimen name="button_height">120dp</dimen>
+    <dimen name="game_button_size">100dp</dimen>
+</resources>
