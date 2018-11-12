@@ -16,7 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ChooseModeActivity" />
         <activity android:name=".StandartGameActivity" />
         <activity android:name=".BiddingGameActivity"></activity>
     </application>

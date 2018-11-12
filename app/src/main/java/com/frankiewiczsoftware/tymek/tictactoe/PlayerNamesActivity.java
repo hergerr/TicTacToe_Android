@@ -27,7 +27,7 @@ public class PlayerNamesActivity extends Activity {
         player1_text = player1.getText().toString();
         player2_text = player2.getText().toString();
 
-        Intent intent = new Intent(this, ChooseModeActivity.class);
+        Intent intent = new Intent(this, StandartGameActivity.class);
         intent.putExtra(P1, player1_text);
         intent.putExtra(P2, player2_text);
         startActivity(intent);

@@ -27,6 +27,7 @@
             android:text="@string/next_move" />
 
         <TextView
+            android:id="@+id/next_move_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="2"
